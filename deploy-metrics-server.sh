@@ -1,7 +1,17 @@
 #!/bin/bash
 
-# Deploy Metrics Server in KIND
+# ============================================================
+# 🔧 Usage:
+# Save this file as deploy-metrics-server.sh
+#
+# Make it executable:
+#   chmod +x deploy-metrics-server.sh
+#
+# Run it:
+#   ./deploy-metrics-server.sh
+# ============================================================
 
+# Deploy Metrics Server in KIND
 set -e
 
 echo "🚀 Step 1: Applying latest metrics-server release..."
